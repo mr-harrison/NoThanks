@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLayeredPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLayeredPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="80" width="550" height="420"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Players: 3 - 5 Age: 8+ years Playing Time: approx. 20 min.&#xa;Contents:&#xa;33 cards with numbers from 3 to 35 55 playing chips&#xa;&#xa;Idea of the Game:&#xa;&#xa;One card lies in the center of the table, face-up. On his turn,&#xa;each player must decide: Either he takes the card and puts it in front of himself,&#xa;giving him points equal to the value printed on the card, or&#xa;he declines the card by putting one of his chips next to it. The turn to play passes &#xa;clockwise, and the next player faces the same decision: Either accept the card&#xa;(including the chip), or decline it and pay one of his own chips. &#xa;The game goes on this way until all cards have found someone willing to accept them.&#xa;The player with the fewest points wins.&#xa;&#xa;The Cards and the Chips:&#xa;&#xa;Each single card which a player has in front of him counts points according to the&#xa;number it shows. Therefore, a 7 counts as seven points, a 15 brings fifteen points, a &#xa;29 counts as twenty- nine points, and so on.&#xa;&#xa;EXAMPLE: Sabrina has four single cards in front of her, totaling 41 points.&#xa; (4+6+10+21). Unbroken number sequences only count as points according to the &#xa;lowest number of the sequence. For example, if a player has the 8 and the 9 in front of&#xa;him, those two cards together only count as 8 points. If he has the cards with the &#xa;numbers 17, 18, 19 and 20 in front of him, all of them together only get him 17 &#xa;points. NOTE: Getting unbroken number sequences is better than getting single cards.&#xa;EXAMPLE: Peter has a total of 28 points in front of him: 13 for the single card, and 15&#xa;for the sequence. If he can get the 14 as well, he will have an unbroken sequence from&#xa;13 to 16, which will count as only 13 points all together. To avoid having to take a &#xa;card, the player whose turn it is must pay a chip. Therefore, it is always good to have &#xa;many chips, in order to be able to decline cards you don&#x2019;t want. Moreover, at the end&#xa;of the game, each chip you have subtracts from your total points.&#xa;&#xa;Preparation:&#xa;&#xa;Each player gets 11 chips. If there are only three or four players,&#xa;During the game, all players keep their chips hidden in their hand so that the &#xa;other players cannot see them. Shuffle the cards, then 24 cards are placed face-down &#xa;and put into the center of the table as a face-down deck. The remaining 9 cards &#xa;are not needed for this game and are discarded, without any player looking&#xa;at them.&#xa;&#xa;How to Play&#xa;&#xa;Randomly determine which player begins. That player turns over the top card of the&#xa;deck and puts it next to the deck, face-up. Then he has to:&#xa;&#x2022; either take the card and put it in front of himself, face-up &#x2022; or decline it and put one&#xa;of his chips next to the card.&#xa;If the player declines the card, play passes to his left-hand neighbor. That player &#xa;faces the same decision: either take the card (and the chip), or decline it and pay one&#xa;of his chips. In this way, the game continues with the turn passing clockwise. Each &#xa;player in turn decides whether to take the card (and all chips next to it), or decline it&#xa;and add one of his own chips to the pool.&#xa;     &#xa; &#x274b; When finally a player decides to take the card (and all chips next to it), he puts it in&#xa;front of himself face-up and takes the chips up in hand. After that, this player turns &#xa;over the next card of the deck. As described above, he must then decide whether to &#xa;take the card, or decline it and pay a chip. If he declines, the turn to play &#x2013; and the &#xa;decision whether or not to accept the card &#x2013; again passes to his left-hand neighbor, &#xa;and so on.&#xa;Often, players will decline a card several turns over, so that the number of chips lying &#xa;next to the card becomes quite large. This is absolutely ok &#x2013; in fact, it&#x2019;s an interesting&#xa;aspect of the game.&#xa;Example: Peter turns over the top card of the deck. It shows the number 11. As this &#xa;card would get Peter 11 points, he declines it and puts one of his chips next to it. &#xa;Sabrina also declines and adds one of her chips. Lisa, however, would rather save her&#xa;chips, so she accepts the card. She puts down the 11 in front of herself face-up, and &#xa;takes the two chips next to it up in hand. Then, Lisa turns over the top card of the&#xa;deck &#x2013; it&#x2019;s the 16. Lisa could take the card straight away, but that would get her &#xa;another 16 points. She declines the card, putting one of her chips next to it. Then the &#xa;game goes on.&#xa;&#xa;Note: To make it easy for all players to see who has how many points, unbroken &#xa;sequences should be placed with the cards overlapping, well separated from single &#xa;cards. All card values have to be clearly visible at all times during the game.&#xa;The game continues in this manner until all cards of the deck have been used up. As &#xa;soon as the last card of the deck has found a player who accepts it, the game ends &#xa;and the final scores are calculated.&#xa;&#xa;End of the Game / Scorekeeping&#xa;&#xa;After all 24 cards have found an owner, each player calculates his final score by &#xa;adding up the values of all his single cards, plus that of the lowest card of each &#xa;unbroken number sequence he has in front of him. From the total, he subtracts the &#xa;number of chips he still has. It&#x2019;s pretty simple, really.&#xa;Example: At the end of the game, Lisa has three single cards and two sequences in &#xa;front of her. Together, they get her 59 points (3+7+10+14+25 = 59). From that, she &#xa;subtracts the 8 chips she has left, for a final score of 51 (59-8 = 51).&#xa;The player with the lowest final score &#x2013; i.e., the fewest points &#x2013; wins the game.&#xa;Tactical Tips&#xa;&#x274b; Sooner or later, you will run out of chips, which means that you will have to take a &#xa;card. Therefore, especially at the beginning of the game, don&#x2019;t be too hesitant about &#xa;taking a card that doesn&#x2019;t have that many chips next to it. A 15, for example, with &#xa;three or four chips next to it, may well be worth considering.&#xa;&#x274b; A good way to grab as many chips as possible is to decline a card which you &#xa;yourself could easily take (because it would complete or add to one of your sequences)&#xa;, but which your fellow players won&#x2019;t want (because it would get them too many points)&#xa;. Just send it around for another turn or two; it will come back to you with a lot more&#xa;chips.&#xa;&#xa;Example: Sabrina already has the 34 in front of her. The next card to be turned over is &#xa;the 35. Sabrina could take it at once, as it would allow her to form a sequence with the&#xa; 34 she already has. Her fellow players, however, do not want to take the 35 at all, &#xa;because to them it&#x2019;s worth 35 points. Thus, Sabrina doesn&#x2019;t accept the 35 on her turn, &#xa;but declines it, waiting until it comes back her way with a decent number of chips.&#xa;Note: Of course, you can try to send a very high card around several times, but you &#xa;shouldn&#x2019;t get too greedy! When some other player runs out of chips, he will have to &#xa;take it &#x2013; and you can never know when that moment will come.&#xa;&#x274b; Since nine cards are put aside at the beginning of the game, there will necessarily &#xa;be a few gaps between the cards. Of course, you&#x2019;ll have to speculate upon being able &#xa;to close gaps between some of your cards at a later point (for example, between the 22&#xa;and the 24) &#x2013; a little luck is part of the game &#x2013; but you can never rely on that &#xa;happening. The bigger the gap (say, between the 30 and the 35), the smaller the &#xa;chance that all necessary cards to close it are in the deck &#x2013; and that you will get them &#xa;all.&#xa;&#x274b; If you want to put a little more emphasis on tactics, you can try the following &#xa;variant rule:&#xa;At the beginning of the game, each player only gets 10 chips. The cards with the &#xa;numbers 10, 20 and 30 are taken out and put into the box, before the 24 cards for the &#xa;deck are counted off (face-down). The six cards which then remain are also put into &#xa;the box. The rest of the game is unchanged, but knowing three of the nine gaps in &#xa;advance increases the tactical element of the game."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Instructions"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="40" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/background.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
